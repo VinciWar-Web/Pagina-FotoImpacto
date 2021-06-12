@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.h1{
+	font-family:Verdana, Geneva, sans-serif; /*TIPO DE LETRA*/
+	color:#f47f34; /*COLOR DE LA LETRA*/
+	text-align: center; /*CENTRA EL TEXTO*/
+	font-size: 3em; /*TAMAÑO DE LETRA*/
+	text-shadow:#000 3px 3px 5px; /*SOMBRA EN LA LETRA*/
+}
+
+img.figura{
+	height: 300px; /*ALTO DE LA IMAGEN*/
+	width: 800px; /*ANCHO DE LA IMAGEN*/
+	margin: auto; /*CENTRA LA IMAGEN*/
+	display: block; /*PARA QUE CENTRE LA IMAGEN*/
+}
+
+
+
+footer{
+	background-color: #f47f34; /*COLOR DE LA CAJA*/
+	width: 100%; /*ADACTABLE A CUALQUIER PANTALLA*/
+	line-height: 3; /*ANCHO DE LA CAJA*/
+	bottom: 0px; /*ENVIAR PIE DE PAGINA ABAJO*/
+	text-align: center; /*CENTRAR EL TEXTO*/
+}

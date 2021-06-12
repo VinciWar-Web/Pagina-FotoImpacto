@@ -1,0 +1,48 @@
+.footer{
+	align-self: flex-end; /*Declarar codigo para enviar footer abajo*/
+	background-color:#335789; /*Color de la caja con transparencia*/
+	line-height:1.5; /*Ancho de la caja*/
+	text-align: center; /*Centrar texto*/
+	width: 100%; /*Adactable a cualquier pantalla*/
+	color:#d0d0d9;
+  clear:both;
+  box-shadow: 0px -4px 3px rgba(0,0,0,.5);
+  font-family: exo;
+}
+
+.derechos{
+  padding-top: 20px;
+}
+
+
+.imagenpiedepagina{
+  width: 200px;
+}
+
+
+.con9, .con10, .con11{
+  display: inline-block;
+  width: 25px;
+  margin: auto;
+  text-align:center; 
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 10px 1px 4px 1px;
+
+}
+
+.con9:hover, .con10:hover, .con11:hover{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  -webkit-transition:0.3s;
+  -moz-transition:0.3s; 
+  -ms-transition:0.3s; 
+  -o-transition:0.3s;  
+}
+
+.desarrolladores{
+  color: #d0d0d9;
+  text-decoration: none;
+}
